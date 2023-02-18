@@ -1,0 +1,22 @@
+package Sumapp;
+import  java.util.*;
+class Sum
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String name;
+		int age,num,mob;
+		
+		System.out.println("enter your age");
+		age=sc.nextInt();
+		System.out.println("your age is "+age);
+		
+		System.out.println("type your name here");
+		name=sc.next();
+		System.out.println("your name is "+ name);
+		
+		System.out.println("type your number ");
+		num = sc.nextInt();
+		System.out.println("your number is "+num);
+	}
+}
